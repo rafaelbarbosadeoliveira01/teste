@@ -1,0 +1,75 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+/* FONTS */
+
+@font-face{
+	font-family: geo;
+	src: url("../fonts/geomanist_regular.otf");
+}
+
+@font-face{
+	font-family: geoMedium;
+	src: url("../fonts/geomanist_medium.otf");
+}
+
+/* FIM FONTS */
+
+html, body{
+	height: 100%;
+	font-family: geo, sans-serif, tahoma !important;
+	background-color: #005aa5;
+}
+
+.hd{
+	width: 100%;
+	height: 52px;
+	background-color: #005aa5;
+	position: relative;
+	text-align: center;
+}
+
+.hd h2{
+	font-size: 22px;
+	font-weight: normal;
+	color: #fff;
+	line-height: 50px;
+}
+
+.line-yellow{
+	width: 100%;
+	height: 3px;
+	background-color: #ffed00;
+}
+
+.container{
+	width: 100%;
+	max-width: 390px;
+	text-align: center;
+}
+
+.logo{
+	width: 125px;
+	height: 125px;
+	margin: 50px 0px 25px 0px;
+}
+
+.container-eng{
+	width: 90%;
+	text-align: left;
+	margin: 0px auto;
+}
+
+.container-eng p{
+	font-size: 17px;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.container-eng p b, .container-eng p:last-child{
+	font-family: geoMedium;
+	color: #ffed00;
+}

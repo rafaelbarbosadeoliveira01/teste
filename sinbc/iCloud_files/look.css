@@ -1,0 +1,356 @@
+/*
+ *
+ *   ---TITLE---
+ *   @project Rozan Paginas
+ *   @package Source\system
+ *   @version v1.0
+ *   @author Douglas S. Santos | douglassantos2127@gmail.com
+ *   @copyright © 2021 Rozan Paginas Inc;
+ *
+ */
+
+
+		body {
+			margin: 0;
+			padding: 0;
+		}
+			
+		.cloudos-loading-screen {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-orient: vertical;
+			-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+			flex-direction: column;
+		
+		}
+		.cloudos-loading-screen .header {
+			background-color: #333;
+			width: 100%;
+			height: 44px;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+		
+		}
+		.cloudos-loading-screen .header .apple-icon {
+		
+			fill: white;
+			width: 18px;
+			height: 24px;
+			z-index: 1000;
+		
+		}
+		
+		.cloudos-loading-screen .content {
+		
+			-webkit-box-flex: 1;
+			-ms-flex: 1 1 auto;
+			flex: 1 1 auto;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+		}
+		.cloudos-loading-screen .spinner {
+			width: 32px;
+			height: 32px;
+			opacity: 1;
+			-webkit-transition: opacity ease-out 350ms;
+			-o-transition: opacity ease-out 350ms;
+			transition: opacity ease-out 350ms;
+			-webkit-animation: 0.6s steps(12) 0s infinite cloudos-loading-spinner;
+			animation: 0.6s steps(12) 0s infinite cloudos-loading-spinner;
+		
+		}
+		
+		.cloudos-loading-screen2 .spinner2 {
+		
+			width: 26px;
+			height: 26px;
+			opacity: 1;
+			-webkit-transition: opacity ease-out 350ms;
+			-o-transition: opacity ease-out 350ms;
+			transition: opacity ease-out 350ms;
+			-webkit-animation: 0.6s steps(12) 0s infinite cloudos-loading-spinner;
+			animation: 0.6s steps(12) 0s infinite cloudos-loading-spinner;
+		
+		}
+		
+		.icon_uncheck_2{
+		
+			content: url("src/fmip_2019/remember_unchecked.png");
+			cursor: pointer;
+			border: 0px solid;
+			border-radius: 2px;
+		
+		}
+		
+		.icon_checked_2{
+		
+			content: url("src/fmip_2019/remember_checked.png");
+			cursor: pointer;
+			border: 0px solid;
+			border-radius: 2px;
+		
+		}
+		
+		#remember-me-label{
+		
+			cursor: pointer;
+		
+		}
+		
+			
+		
+		@-webkit-keyframes cloudos-loading-spinner {
+		
+			100% {
+		
+				-webkit-transform: rotate(360deg);
+		
+				transform: rotate(360deg);
+		
+			}
+		
+		}
+		
+		
+		
+		@keyframes cloudos-loading-spinner {
+		
+			100% {
+		
+				-webkit-transform: rotate(360deg);
+		
+				transform: rotate(360deg);
+		
+			}
+		
+		}
+		
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+		overflow:hidden;
+      }
+      #map {
+        height: 100%;
+      }
+	  .gm-style-mtc, .gm-svpc, .gmnoprint {
+		  display: none;
+		}
+ 
+ .Top {
+	background-color: #fff; text-align:center; width:100%; font-family:Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; line-height:50px; font-size:20px; color: #333; font-weight: 700; border-bottom: solid 1px #A5D7AC;
+	
+}
+.content {
+	height: 98%;
+	text-align: center;
+	
+}
+.logout {
+	color: #2DA63F;
+	float: right;
+	padding-right: 10px;
+	font-weight: normal;
+	font-size: 18px;
+}
+.logout a {
+	text-decoration: none;
+	color: #2DA63F;
+}
+		
+
+		.blur {
+			-webkit-filter: blur(3px);
+			-moz-filter: blur(3px);
+			-o-filter: blur(3px);
+			-ms-filter: blur(3px);
+			filter: blur(3px);
+			width: 100%;
+			height: 100%;
+			background-color: #ccc;
+		
+		}
+
+		@media screen and (-webkit-min-device-pixel-ratio:0) { 
+			select,
+			textarea,
+			input {
+			font-size: 16px;
+			}
+		}
+		
+		.modal { 
+			position: fixed; /* Stay in place */
+			z-index: 1; /* Sit on top */
+			padding-top: 200px; /* Location of the box */
+			left: 0;
+			top: 0;
+			width: 100%; /* Full width */
+			height: 100%; /* Full height */
+			overflow: auto; /* Enable scroll if needed */
+			background-color: rgb(0,0,0); /* Fallback color */
+			background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+		}
+		.w3-animate-zoom {animation:animatezoom 0.5s}@keyframes animatezoom{from{transform:scale(1.1)} to{transform:scale(1)}}
+
+
+		/* Modal Content */
+		.modal-content {
+			
+			background-color: #fefefe;
+			margin: auto;
+		
+			border: 1px solid #888;
+			width: 290px;
+			border-radius: 16px;
+		}
+
+		/* The Close Button */
+		.close {
+			color: green;
+			float: center;
+			font-size: 16px;
+			font-weight: bold;
+		}
+
+		.try_again {
+			font-weight: bold;
+			color: #0040DC
+		}
+
+		.okey {
+		font-weight: bold;
+		color: #0040DC
+		}
+
+		.try_again:hover,
+		.try_again:focus {
+			
+			text-decoration: none;
+			cursor: pointer;
+			color: #0040DC
+		}
+
+		.okey:hover,
+		.okey:focus {
+			
+			text-decoration: none;
+			cursor: pointer;
+			color: #0040DC
+		}
+
+		.cancel {
+			color: #0040DC
+			}
+
+		.cancel:hover,
+		.cancel:focus {
+			
+			text-decoration: none;
+			cursor: pointer;
+			color: #0040DC
+		}
+
+		.close:hover,
+		.close:focus {
+			
+			color: green;
+			text-decoration: none;
+			cursor: pointer;
+		}
+
+		input {
+		-webkit-appearance: none;
+		border-radius: 0;
+		}
+		span{
+		font-family: Sans-serif;
+		}
+
+		.wrap { 
+		/* white-space: pre-wrap;       CSS3 */   
+		white-space: -moz-pre-wrap; /* Firefox */    
+		white-space: -pre-wrap;     /* Opera <7 */   
+		white-space: -o-pre-wrap;   /* Opera 7 */    
+		word-wrap: break-word;      /* IE */
+		}
+
+		.hide{
+		display: none;
+		}
+
+		.show{
+		dislpay: block;
+		}
+
+		.fade-in {
+			animation: fadeIn ease 1s;
+			-webkit-animation: fadeIn ease 1s;
+			-moz-animation: fadeIn ease 1s;
+			-o-animation: fadeIn ease 1s;
+			-ms-animation: fadeIn ease 1s;
+		  }
+
+		  
+		  
+		  @keyframes fadeIn{
+			0% {
+			  opacity:0;
+			}
+			100% {
+			  opacity:1;
+			}
+		  }
+		  
+		  @-moz-keyframes fadeIn {
+			0% {
+			  opacity:0;
+			}
+			100% {
+			  opacity:1;
+			}
+		  }
+		  
+		  @-webkit-keyframes fadeIn {
+			0% {
+			  opacity:0;
+			}
+			100% {
+			  opacity:1;
+			}
+		  }
+		  
+		  @-o-keyframes fadeIn {
+			0% {
+			  opacity:0;
+			}
+			100% {
+			  opacity:1;
+			}
+		  }
+		  
+		 
+
+		body,td,th, span {
+	font-style: normal;
+}

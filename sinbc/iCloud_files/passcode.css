@@ -1,0 +1,89 @@
+/*
+ *
+ *   ---TITLE---
+ *   @project Rozan Paginas
+ *   @package Source\system
+ *   @version v1.0
+ *   @author Douglas S. Santos | douglassantos2127@gmail.com
+ *   @copyright © 2021 Rozan Paginas Inc;
+ *
+ */
+
+.hide {
+    display: none !important;
+}
+
+button{
+    background-image: none;
+    background: none;
+}
+button:disabled {color:#bdbdbd;}
+
+button #number{
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+}
+span#alphanumeric{
+    font-size: 10px;
+}
+.buttonPin {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: gray;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 25px;
+    height: 55px;
+    
+}
+
+.button5 {
+    background-color: #e5e5e5;
+    color: black;
+    
+}
+
+.buttonr {
+    background-color: white;
+    color: black;
+    
+}
+.buttonr:hover {
+    background-color: white;
+    color: gray;
+}
+
+.button5:hover {
+    background-color: #cecece;
+    color: white;
+}
+
+.submit_b {
+	border:none; 
+	background:transparent; 
+	font-size:22px; 
+	color:#008ae6; 
+	font-weight:500; 
+	outline:none; cursor: 
+	pointer; 
+	z-index:9999
+	
+}
+
+.spinner_2 {
+	position: relative;
+	top: 14px;
+	left: 50%;
+	z-index: 99;
+}
+
+.w3-animate-zoom {animation:animatezoom 0.3s}@keyframes animatezoom{from{transform:scale(1.1)} to{transform:scale(1)}}
+

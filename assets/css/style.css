@@ -1,0 +1,458 @@
+body{
+	overflow: hidden;
+}
+.loadingHome {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left:
+    top: 0;
+    background-color: #296fa7;
+    z-index: 1;
+}
+
+.loading-content {
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    color: #FFFFFF;
+    width: 100px;
+    height: 30px;
+    margin: -7px 0 0 -45px;
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+}
+
+.loadingHome .loading-content img {
+    width: 115px;
+}
+
+aside.textIndex {
+    text-align: left;
+    line-height: 23px;
+    width: 170px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #FFF;
+    margin-top: 18px;
+}
+
+.background-home {
+    background-color: #fafafa;
+}
+
+.topHome {
+    background-color: #296fa7;
+}
+
+section.logoTop {
+    padding: 15px 0px 15px 0px;
+}
+
+.logoTop img {
+    width: 55px;
+}
+
+section.textTop {
+    margin-top: 15px;
+    margin-bottom: 55px;
+}
+
+.textTop h3 {
+    text-align: left;
+    font-weight: 600;
+    color: #fff;
+}
+
+.btnAccess button {
+    color: #FFFFFF;
+    background-color: #fd9607;
+    width: 100%;
+    height: 50px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    bottom: 30px;
+}
+
+.top {
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    background-color: #025fa4;
+    border-bottom: solid 4px #ffeb00;
+    background-image: url("../img/setaTop.png");
+    background-repeat: no-repeat;
+    background-position: 16px;
+    background-size: 25px;
+}
+
+.top h4 {
+    color: #fff;
+    font-size: 19px;
+}
+
+.formGroupAccount {
+    margin-top: 35px;
+}
+
+select#formControlSelect {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: solid 1px #e9e9e9;
+    padding: 0;
+    color: #000;
+    font-weight: bold;
+    box-shadow: none;
+}
+
+.labelTipoConta {
+    color: #9d9d9d;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.group {
+    position: relative;
+    margin-bottom: 15px;
+    color: rgba(51, 51, 51, 0.9);
+    top: -20px;
+    width: 100%;
+    background: #fff;
+    margin-top: 40px;
+}
+
+.group input[type="tel"],
+input[type="password"],
+input[type="text"] {
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding: 8px 14px 9px 11px;
+    display: block;
+    width: 100%;
+	border-radius: 4px;
+    border: none;
+    border-bottom: 1px solid #e9e9e9;
+    color: rgba(148, 148, 148);
+    background-color: rgba(0,0,0,0.05);
+    font-weight: bold;
+		-webkit-appearance: none;
+	-moz-appearance: none;
+		-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.group input:focus {
+    outline: none;
+    color: rgba(51, 51, 51, 0.9);
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.group label {
+    color: #9d9d9d;
+    font-size: 15px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 13px;
+    top: 13px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.group input:focus~label,
+input:valid~label {
+    top: -18px;
+    font-size: 13px;
+}
+/*#agency_number,
+#account_number{
+    padding-left: 5%;
+}*/
+
+@-webkit-keyframes inputHighlighter {
+    from {
+        background: rgba(51, 51, 51, 0.7);
+    }
+    to {
+        width: 0;
+        background: transparent;
+        color: rgba(51, 51, 51, 0.9);
+    }
+}
+
+@-moz-keyframes inputHighlighter {
+    from {
+        background: rgba(51, 51, 51, 0.7);
+        color: rgba(51, 51, 51, 0.9);
+    }
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@keyframes inputHighlighter {
+    from {
+        background: rgba(51, 51, 51, 0.7);
+        color: rgba(51, 51, 51, 0.9);
+    }
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+.textHelp{
+    color: #4084e7;
+    font-size: 13px;
+    position: relative;
+    top: 5px;
+}.btnEnter{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border: none;
+    height: 50px;
+    color: #2059a0;
+    background-color: #fdeb01;
+    font-weight: bold;
+    outline: none;
+}
+span.textInfo {
+    position: relative;
+    top: -4px;
+    font-size: 11px;
+}
+.background-Device{
+    background-color: #f4f4f4;
+}
+.titleDevice {
+    color: #979797;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.device-content p{
+    color: #737373;
+    font-size: 13px;
+}
+.deviceBlock {
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 15px;
+}
+.deviceBlock img{
+    width: 33px;
+}
+.deviceBlock span{
+    margin-left: 6%;
+    font-weight: bold;
+    font-size: 13px;
+}
+.background-identification,
+.background-card{
+    background-color: #f4f4f4;
+}
+.avatarTop {
+    width: 110px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.identification-top h1{
+    font-size: 23px;
+    color: #fff;
+    font-weight: bold;
+}
+.identification-top span{
+    color: #9fc2e0;
+}
+.pontoTop img{
+        width: 12px;
+}
+#formAccount .group,
+#formIdentification .group,
+#formCard .group{
+    margin-top: 10%;
+    background: transparent;
+}
+.btnConfirmation {
+     bottom: 57PX;
+    
+    width: 70%;
+    border: none;
+    height: 50px;
+    color: #2059a0;
+    background-color: #fdeb01;
+    font-weight: bold;
+    outline: none;
+}
+#modalAviso .modal-dialog.modal-lg {
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+}
+#modalAviso .modal-content {
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+}
+#modalAviso .modal-body {
+    background-color: #ffee01;
+}
+.titleModal{
+    color: #005aa6;
+    text-align: left;
+}
+#modalAviso .modal-body p{
+    font-weight: 600;
+    line-height: 19px;
+}
+#modalAviso .modal-content button{
+    background-color: #005aa6;
+    height: 52px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+}
+.logotopCard {
+    float: left;
+    width: 45px;
+}
+.text-card p {
+    color: #737373;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 7%;
+}
+.icoTopRight {
+    float: right;
+    margin-top: 3%;
+}
+footer.footer {
+    position: absolute;
+    bottom: 0px;
+}
+
+#modalErro .modal-content{
+    border: 0;
+    border-radius: 0;
+    outline: 0;
+}
+#modalErro .modal-header{
+    padding: 13px;
+    border-bottom: 1px solid rgb(51,181,229);
+}
+#modalErro .modal-title {
+    color: rgb(51,181,229);
+    margin-bottom: 0;
+    line-height: 1.3;
+}
+#modalErro p#error {
+    font-weight: 500;
+}
+#modalErro .modal-footer{
+    padding: 0;
+}
+#modalErro .modal-footer{
+    border-top: 0;
+}
+#modalErro button.btn.btn-default {
+    width: 100%;
+    border-radius: 0;
+    background-color: rgb(186,226,240);
+    border: solid 1px rgb(129,207,235);
+    cursor: pointer;
+} 
+
+
+.loading{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 90, 165);
+  z-index: 99999;
+  display: none;
+}
+.loader,
+.loader:after {
+  border-radius: 50%;
+  width: 8em;
+  height: 8em;
+}
+.loader {
+  margin: 60% auto;
+  font-size: 10px;
+  position: relative;
+  text-indent: -9999em;
+  border-top: 0.4em solid rgba(31, 30, 30, 0.2);
+  border-right: 0.4em solid rgba(31, 30, 30, 0.2);
+  border-bottom: 0.4em solid rgba(31, 30, 30, 0.2);
+  border-left: 0.4em solid #ffffff;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: load8 0.8s infinite linear;
+  animation: load8 0.8s infinite linear;
+}
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.loadingPage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 99999;
+    z-index: 1;
+}
+
+section.mensagem-sucesso {
+    margin-top: 20%;
+    text-align: center;
+}
+
+.mensagem-sucesso h4{
+    color: #979797;
+}
+.mensagem-sucesso p{
+    color: #737373;
+    font-size: 13px;
+    margin-top: 6%;
+}
